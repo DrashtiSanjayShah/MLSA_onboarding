@@ -19,7 +19,10 @@ div#main {
   flex-direction: column;
   width: 100vw;
 }
-
+.name{
+  color: white;
+  font-weight: bold;
+}
 section {
   position: relative;
   width: 100vw;
