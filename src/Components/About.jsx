@@ -10,7 +10,7 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -24,19 +24,13 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a Computer science student studying at Mumbai University. I enjoy creating unique and simplistic websites with simple and intutive user interfaces in creative ways. I also love developing games using Python language and writing technical articles";
+  "I'm a UI/UX student studying at Mumbai University. I enjoy creating unique user interfaces in simplistic ways.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
-const skillsList = [
-  "Web design",
-  "User experience",
-  "Python Developer",
-  "Game Developer",
-  "Technical Writer",
-];
+const skillsList = ["Web design", "User experience", "Inclusive design", "Content Creator"];
 
 /**
  * Use this to give more information about what you are passionate about,
@@ -44,7 +38,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about solving usability problems in new creative ways, driven by innovation to make technologu accessible and usable to all. By leveraging my UI/UX experience I strive to make everyday used app better to make the users excited about the product.";
 
 const About = () => {
   return (
