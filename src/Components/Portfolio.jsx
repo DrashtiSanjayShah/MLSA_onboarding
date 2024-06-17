@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/stack.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,27 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "Python Prowess",
+    title: "My YouTube Channel: That one girl in B.Tech",
     description:
-      "Created a beginner friendly Playlist of YouTube Videos to help explain the basics of Python and how to move forward.",
-    url: "https://youtube.com/playlist?list=PLI9IU_4HLCWGRkLqlP50xvdb1W-_qMJd5&si=iw1BGk5JYITUKKYa",
+      "With the goal of helpong my fellow classmates and juniors in thier path to compleing their engineering , I started creating content alongside my studies. I share my experiences, tips and tricks, and tutorials on my channel.",
+    url: "https://www.youtube.com/@thatonegirlinbtech ",
+  },
+  {
+    title: "LinkedIn Clone: Backend integration with Firebase",
+    description:
+      "This project truly tested my everything. Integrating a new version of Firebase with Little to no community support was overwhelming but I managed to get it done.",
+    url: "https://linkedin-ccee8.web.app",
   },
   {
     title: "My Resume Site",
     description:
-      "Created using Firebase Storage and deployed to Firebase. Includes my experience and design abilities.",
-    url: "https://portfolio-c4508.web.app",
+      "Created from Microsoft's resume workshop and deployed to Netlify. Includes my experience and design abilities.",
+    url: "https://portfolio-c4508.web.app ",
   },
   {
-    title: "Snake Game using Python and Pygame",
-    description: "Using the Pygame library, I created the classic Snake Game.",
-    url: "https://6548e205c496e52947209a45--melodious-cucurucho-a6b941.netlify.app/",
-  },
-  {
-    title: "Secure Transactions using Blockchain",
+    title: "My latest Freelance Project",
     description:
-      "Made a project using Solidity and Ganache to create a secure transaction system using Blockchain.",
-    url: "https://6548e205c496e52947209a45--melodious-cucurucho-a6b941.netlify.app/",
+      "The client wanted a simple and functional website to showcase his project and business plan to investors. Made with ReactJS and backend in Firebase, this website has simple inteface so that the target audience can use it without any stress.",
+    url: "https://starlit-manatee-7c9f3f.netlify.app/",
   },
 ];
 
